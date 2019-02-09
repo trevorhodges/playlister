@@ -1,15 +1,19 @@
-#playlister
+# playlister
 A tool for creating YouTube playlists from forum posts full of embedded YouTube links.
 
 ## Getting Started
 
 ### Prerequisites
 
+playlister requires Python3.
+
 First, I'd recommend creating a virtual environment. Next, install the preqreq packages:
 
 `pip install -r requirements.txt`
 
 ### Executing playlister
+
+Execute playlister on the command line: `python playlister.py <url> <count>`.
 
 playlister takes two arguments:
 
